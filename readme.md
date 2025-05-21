@@ -93,4 +93,4 @@
 
 #### Пример темы
 
-![city theme](https://weather.murchikov.ru/v1/weather?place=Москва&theme=city)
+![city theme](https://weather.murchikov.ru/v1/weather?place=Москва&theme=city&size=small)
