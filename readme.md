@@ -2,7 +2,9 @@
 
 Виджет погоды в виде изображения, который можно вставить куда угодно — например, в README профиля GitHub или на сайт.
 
-Данные получаются через **GET**-запрос к: https://weather.oarer.space/v1/weather
+Данные получаются через **GET**-запрос к: https://weather.murchikov.ru/v1/weather
+
+> Огромное спасибо [Мурчикову](https://github.com/imMurchikov) за размещение API <3
 
 Все ответы, полученные с этого endpoint'а, кэшируются на 30 минут **независимо от заголовка `Cache-Control`**.
 
@@ -67,7 +69,7 @@
 
 #### Пример темы
 
-Скоро...
+![default theme](https://weather.murchikov.ru/v1/weather?place=Москва&theme=default)
 
 ---
 
@@ -91,4 +93,4 @@
 
 #### Пример темы
 
-Скоро...
+![city theme](https://weather.murchikov.ru/v1/weather?place=Москва&theme=city)
