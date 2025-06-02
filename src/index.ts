@@ -18,7 +18,7 @@ app.use(weather);
 app.get(
     "/",
     () =>
-        `Hi!\nThis API was created by: https://github.com/oarer\n\nDocs: https://github.com/oarer/weatherapi`
+        `Hi!\nThis API was created by: https://github.com/oarer\n\nDocs: https://github.com/oarer/weather-api`
 );
 
 // Error handling
